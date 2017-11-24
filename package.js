@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jorisroling:yves',
-  version: '1.0.29',
+  version: '1.0.34',
   // Brief, one-line summary of the package.
   summary: 'Meteor implementation of (yves)[https://github.com/jorisroling/yves]',
   // URL to the Git repository containing the source code for this package.
@@ -18,7 +18,7 @@ Package.onUse(function(api) {
 	api.addFiles('yves_both.js');
   api.use(['templating', 'spacebars', 'ui'], 'client');
   Npm.depends({
-    "yves": "1.0.29"
+    "yves": "1.0.34"
   });
   api.export('yves');
   // api.export('debug');
