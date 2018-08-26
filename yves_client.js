@@ -21,5 +21,3 @@ Template.registerHelper('yves', function(obj,hostPattern,absolute)
 	if ((typeof absolute=='boolean' && absolute) || (typeof absolute=='string' && absolute=='absolute')) result='<div style="position:absolute;z-index:999999">'+result+'</div>';
 	return result;
 });
-
-
